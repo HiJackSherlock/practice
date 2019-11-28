@@ -1,6 +1,9 @@
 import React from 'react';
+import ReactDom from 'react-dom';
 import logo from './logo.svg';
 import './App.css';
+
+type AppProps = { message: string };
 
 const App: React.FC = () => {
   return (
